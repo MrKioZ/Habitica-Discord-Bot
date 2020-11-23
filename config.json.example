@@ -1,0 +1,6 @@
+{
+    "TOKEN": "YourBotToken",
+    "HABITICA_API_USER": "YourHabiticaUserUUID",
+    "HABITICA_API_KEY": "YourHabiticaTokenUUID",
+    "PREFIX": "$"
+}
