@@ -22,26 +22,6 @@ module.exports = {
     let data = response.data.data
 
     let username = data.profile.name
-    // let { buffs,
-    //     training,
-    //     CharacterHealth,
-    //     Charactermp,
-    //     CharacterExp,
-    //     gp,
-    //     CharacterLvl,
-    //     CharacterClass,
-    //     CharacterPoints,
-    //     CharacterStrength,
-    //     con,
-    //     int,
-    //     per,
-    //     toNextLevel,
-    //     maxHealth,
-    //     maxMP
-    // } = data.stats
-    // let achievements = data.achievements
-    // let items = data.items
-    // let party = data.party
 
     CharacterHealth = data.stats.hp
     CharacterExp = data.stats.exp
